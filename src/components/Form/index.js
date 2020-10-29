@@ -1,3 +1,3 @@
-export {default} from './Button';
-export {default} from './Input';
-export {default} from './Textarea';
+export {default as Button} from './Button';
+export {default as Input} from './Input';
+export {default as Textarea} from './Textarea';
