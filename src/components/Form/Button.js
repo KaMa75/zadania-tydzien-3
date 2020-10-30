@@ -8,12 +8,14 @@ function Button({children, bgColor, color, icon}) {
     }
 
     return (
-        <button
-            style={styles}
-        >
-            <FontAwesomeIcon icon={icon} />
-            <span>{children}</span>
-        </button>
+        <div className='btn'>
+            <button
+                style={styles}
+            >
+                <FontAwesomeIcon icon={icon} />
+                <span>{children}</span>
+            </button>
+        </div>
     );
 }
 
