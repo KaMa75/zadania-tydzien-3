@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Form from 'components/Form';
+import Contact from 'pages/Contact';
 import './App.css';
 
 import { library } from '@fortawesome/fontawesome-svg-core';
@@ -9,7 +9,7 @@ library.add(faUser);
 
 function App() {
   return (
-    <Form />
+    <Contact />
   );
 }
 
