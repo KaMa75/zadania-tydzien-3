@@ -17,23 +17,17 @@ function Posts() {
 
     return (
         <div>
-            <p>
-                asdasd
-                {title}
-            </p>
-            <p>
-                {intro}
-            </p>
-            <p>
-                {content}
-            </p>
-            {/* <Card
+            <Card
                 title={title}
-                title='title'
                 intro={intro}
                 content={content}
                 showMore
-            /> */}
+            />
+            <Card
+                title={title}
+                intro={intro}
+                content={content}
+            />
         </div>
     );
 }

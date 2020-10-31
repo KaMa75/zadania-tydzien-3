@@ -1,14 +1,16 @@
 import React from 'react';
 
-// function Card({title, intro, content, showMore}) {
-function Card(props) {
-    // console.log(props)
+import {Title} from './';
+import './Card.css';
+
+function Card({title, intro, content, showMore}) {
     return (
         <div className='Card'>
-            <h3>{props.title}</h3>
-            {/* <h3>{title}</h3> */}
-            {/* <p>{intro}</p> */}
-            {/* <p>{content}</p> */}
+            <Title letter='R'>
+                {title}
+            </Title>
+            <p className="intro">{intro}</p>
+            <p className="content">{content}</p>
         </div>
     );
 }
