@@ -1,7 +1,8 @@
 import React from 'react';
 
-import Contact from 'pages/Contact';
 import Sidebar from 'components/Menu';
+// import Contact from 'pages/Contact';
+import Posts from 'pages/Posts';
 import './App.css';
 
 import { library } from '@fortawesome/fontawesome-svg-core';
@@ -12,7 +13,8 @@ function App() {
   return (
     <div className='main-container'>
       <Sidebar />
-      <Contact />
+      {/* <Contact /> */}
+      <Posts />
     </div>
   );
 }
