@@ -1,6 +1,7 @@
 import React from 'react';
 
 import {Menu, MenuLink} from './';
+import './Sidebar.css';
 
 const menuLinks = [
     {id:1, name: 'Home', linkTo: '/', isActive: false},
