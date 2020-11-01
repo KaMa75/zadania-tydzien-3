@@ -1,0 +1,45 @@
+.Form {
+    width: 100%;
+    margin: 100px auto;
+    max-width: 650px;
+    padding: 0 16px;
+}
+
+input {
+    display: block;
+    width: 100%;
+    font-size: 18px;
+    outline: none;
+    border: 1px solid darkgray;
+    padding: 8px 16px;
+    margin-bottom: 16px;
+}
+
+textarea {
+    display: block;
+    width: 100%;
+    font-family: 'Roboto', 'Ubuntu', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    outline: none;
+    border: 1px solid darkgray;
+    padding: 8px 16px;
+    resize: none;
+    margin-bottom: 16px;
+}
+
+button {
+    font-size: 18px;
+    padding: 8px 16px;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.btn :hover {
+    opacity: 0.9;
+}
+
+button span {
+    margin-left: 12px;
+}
