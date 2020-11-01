@@ -1,6 +1,6 @@
 import React from 'react';
 
-import {Title} from './';
+import {Title, Intro, Content, Image, ShowBtn} from './';
 import './Card.css';
 
 function Card({title, intro, content, showMore}) {
@@ -9,8 +9,14 @@ function Card({title, intro, content, showMore}) {
             <Title letter='R'>
                 {title}
             </Title>
-            <p className="intro">{intro}</p>
-            <p className="content">{content}</p>
+            <Image />
+            <Intro>
+                {intro}
+            </Intro>
+            <ShowBtn />
+            <Content showMore={showMore}>
+                {content}
+            </Content>
         </div>
     );
 }
